@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Number Generator</title>
+  <title><img src="favpng_calculator-computer-file.png" ></img>Webnet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #003366;
+  padding: 5px 10px;
+  padding-left: 200px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=url], input[type=tel], input[type=number], input[type=color], input[type=email], select {
+    border: 1px solid #044284;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #666;
+    font-size: 16px;
+}
+
+.inlonger {
+    text-align: left;
+    width: 150px;
+    height: 30px;
+}
+
+.innormal {
+    text-align: right;
+    width: 90px;
+    height: 30px;
+}
+
+
+
+element.style {
+    padding-top: 10px;
+}
+body, p, td, div, span, input, th, li, textarea {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+td[Attributes Style]{
+    text-align: -webkit-center;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+#contentout {
+    width: 1100px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: auto;
+}
+
+.g1{
+  border: 1px solid #417516;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #666;
+    background: #417516;
+    color: #fff;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.g1:hover{
+  background-color: #363835;
+  
+}
+
+#breadcrumbs, #breadcrumbs span {
+    font-size: 13px;
+}
+body, p, td, div, span, input, th, li, textarea {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+.c1{
+  background-color:#999;
+  border: 1px solid #999;
+  border-radius: 2px;
+    box-shadow: 1px 1px 2px #666;
+    color: #fff;
+    padding: 6px;
+    font-size: 16px;
+  
+}
+
+.culoare-fundal{
+  background-color: #e8ebe6;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  
+}
+
+.corp{
+  padding-left: 200px;
+  /*padding-right: 200px;*/
+}
+
+h1 {
+    color: #003366;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0;
+    margin: 12px 0;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #518428;
+  color: black;
+}
+
+.header a.active {
+  background-color: #518428;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  padding-right: 400px;
+  padding-top: 5px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+	
+
+<div class="header">
+	<img src="Screenshot_2021-05-13_at_20.14.35-removebg-preview.png" alt="Girl in a jacket" width="200" height="50" >
+  <div class="header-right">
+    <a href="#contact">FINANCIAL</a>
+    <a href="#about">FITNESS & HEALTH</a>
+	<a class="active" href="#home">MATH</a>
+	<a href="#ceva">OTHER</a>
+  </div>
+</div>
+<div class="corp">
+  <table style="border-collapse: collapse; width: 100%; height: 18px;" border="0">
+    <tbody>
+    <tr style="height: 18px;">
+    <td style="width: 50%; height: 18px;">
+      <div id="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">home</span></a><meta itemprop="position" content="1"></span> / <span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/math-calculator.html" itemprop="item"><span itemprop="name">math</span></a><meta itemprop="position" content="2"></span> / <span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/random-number-generator.html" itemprop="item"><span itemprop="name">random number generator</span></a><meta itemprop="position" content="3"></span></div>
+	<h1>Generator de numere aleatorii</h1>
+
+  <p>Această versiune a generatorului creează un număr &icirc;ntreg aleatoriu. Se poate ocupa de numere &icirc;ntregi foarte mari de p&acirc;nă la c&acirc;teva mii de cifre.</p>
+
+
+<table class="culoare-fundal">
+	<tbody><tr>
+		<td>Lower Limit</td>
+		<td><input id="mic" type="number" name="slower"  value="" class="inlonger" style="text-align:left;" onkeyup="iptfieldCheck(this, 'r', 'i');"></td>
+	</tr>
+	<tr>
+		<td>Upper Limit</td>
+		<td><input id="mare" type="number" name="supper" value="" class="inlonger" style="text-align:left;" onkeyup="iptfieldCheck(this, 'r', 'i');"></td>
+	</tr>
+	<tr><td colspan="2" align="center" style="padding-top:10px;"><input name="ctype" value="1" type="hidden">
+		<input type="hidden" name="s" value="3927">
+		<input onclick="myFunction()" class="g1" type="submit" name="submit1" value="Generate">
+		<input class="c1" type="button" value="Clear" onclick="clearForm(document.calform);">
+	</td></tr>
+	</tbody></table>
+
+  <h1>Versiune cuprinzătoare</h1>
+  <p>Această versiune a generatorului poate crea unul sau mai mulți numere întregi sau zecimale aleatorii. Poate face față unor numere foarte mari cu o precizie de până la 999 cifre.</p>
+
+  <table class="culoare-fundal">
+    <tbody>
+    <tr>
+    <td>Minim</td>
+    <td><input class="inlonger" name="clower" type="text" value="" /></td>
+    </tr>
+    <tr>
+    <td>Maxim</td>
+    <td><input class="inlonger" name="cupper" type="text" value="" /></td>
+    </tr>
+    <tr>
+    <td>Genereaza</td>
+    <td><input class="innormal" maxlength="3" name="cnums" type="text" value="" /> numere</td>
+    </tr>
+    <tr>
+    <td colspan="2">
+    <div id="dupsort" style="display: none;">
+    <div style="padding-top: 8px;">Permite duplicarea rezultatelor?</div>
+    <div style="text-align: center;"><label class="cbcontainer" for="cdup1"><input id="cdup1" name="cdup" type="radio" value="y" />Da</label> &nbsp; <label class="cbcontainer" for="cdup2"><input id="cdup2" checked="checked" name="cdup" type="radio" value="n" />Nu</label></div>
+    <div style="padding-top: 8px;">Sorteaza rezultatele?</div>
+    <div style="text-align: center;"><label class="cbcontainer" for="csort1"><input id="csort1" checked="checked" name="csort" type="radio" value="a" />Crescator</label> &nbsp; <label class="cbcontainer" for="csort2"><input id="csort2" name="csort" type="radio" value="d" />Descrescator</label> &nbsp; <label class="cbcontainer" for="csort3"><input id="csort3" name="csort" type="radio" value="n" />Nu</label></div>
+    </div>
+    <div style="padding-top: 8px;">Tipul numerelor generate?</div>
+    <table align="center">
+    <tbody>
+    <tr>
+    <td><label class="cbcontainer" for="cnumt1"><input id="cnumt1" name="cnumt" type="radio" value="i" />Intregi</label> &nbsp; <label class="cbcontainer" for="cnumt2"><input id="cnumt2" checked="checked" name="cnumt" type="radio" value="d" />Rationale</label></td>
+    </tr>
+    <tr>
+    <td>
+    <div id="precision" style="display: block;">Precizie: <input class="innormal" maxlength="3" name="cprec" type="text" value="" /> cifre</div>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="padding-top: 10px;" colspan="2" align="center"><input name="ctype" type="hidden" value="2" /> <input name="s" type="hidden" value="52628.0173" /> <input class="g1" name="submit1" type="submit" value="Genereaza" /> <input class="c1" style="background-color: #999; border: 1px solid #999;" type="button" value="Sterge" /></td>
+    </tr>
+    </tbody>
+    </table>
+    <p>&nbsp;</p>
+
+    <p>Un număr aleatoriu este un număr ales dintr-un grup de numere limitate sau nelimitate care nu are un model distinctiv pentru predicție. Rezerva de numere este aproape întotdeauna independentă una de cealaltă. Cu toate acestea, grupul de numere poate urma o distribuție specifică. De exemplu, înălțimea elevilor dintr-o școală tinde să urmeze o distribuție normală în jurul înălțimii mediane. Dacă înălțimea unui elev este aleasă la întâmplare, numărul ales are șanse mai mari să fie mai aproape de înălțimea mediană decât să fie clasificat ca foarte înalt sau foarte scurt. Generatorii de numere aleatoare de mai sus presupun că numerele generate sunt independente una de cealaltă și vor fi distribuite uniform în întreaga gamă de valori posibile.</p>
+    <p>A random number generator, like the ones above, is a device that can generate one or many random numbers within a defined scope. Random number generators can be hardware based or pseudo-random number generators. Hardware based random-number generators can involve the use of a dice, a coin for flipping, or many other devices.</p>
+    <p>Un generator de numere pseudo-aleatorii este un algoritm pentru generarea unei secvențe de numere ale căror proprietăți aproximează proprietățile secvențelor numerelor aleatoare. Generatoarele de numere aleatorii bazate pe computer sunt aproape întotdeauna generatoare de numere pseudo-aleatorii. Totuși, numerele generate de generatorii de numere pseudo-aleatorii nu sunt cu adevărat aleatorii. La fel, generatoarele noastre de mai sus sunt, de asemenea, generatoare de numere pseudo-aleatorii. Numerele aleatorii generate sunt suficiente pentru majoritatea aplicațiilor, dar nu ar trebui utilizate în scopuri criptografice. Numerele aleatoare adevărate se bazează pe fenomen fizic, cum ar fi zgomotul atmosferic, zgomotul termic și alte fenomene cuantice. Metodele care generează numere aleatoare adevărate implică și compensarea potențialelor prejudecăți cauzate de procesul de măsurare.</p>
+  
+  </td>
+
+
+  
+  <td style="width: 50%; height: 18px;">
+
+    <div class="x1">
+      <div>
+      <table border="1">
+      <tbody>
+      <tr>
+      <td><strong><a href="/math-calculator.html">Math Calculators</a></strong></td>
+      </tr>
+      <tr>
+      <td><a href="/scientific-calculator.html">Scientific</a></td>
+      <td><a href="/fraction-calculator.html">Fraction</a></td>
+      </tr>
+      <tr>
+      <td><a href="/percent-calculator.html">Percentage</a></td>
+      <td><a href="/triangle-calculator.html">Triangle</a></td>
+      </tr>
+      <tr>
+      <td><a href="/volume-calculator.html">Volume</a></td>
+      <td><a href="/standard-deviation-calculator.html">Standard Deviation</a></td>
+      </tr>
+      <tr>
+      <td><a href="/random-number-generator.html">Random Number Generator</a></td>
+      <td><a href="/math-calculator.html">More Math Calculators</a></td>
+      </tr>
+      </tbody>
+      </table>
+      </div>
+      </div>
+  
+  </td>
+  </tr>
+  </tbody>
+  </table>
+</div>
+</body>
+
+<script>
+
+
+
+
+
+     
+     function myFunction() {
+
+      var MAX = document.getElementById("mare").value;
+     var MIN = document.getElementById("mic").value;
+
+     // Figure out the delta, with subtraction
+const DELTA = MAX - MIN;
+// Get an initial random value.
+// Between 0 and 0.999999 (inclusive)
+const initialRandom = Math.random();
+// Multiply it by our DELTA, 3.
+// Will be between 0 and 2.999999 (inclusive)
+const multiplied = initialRandom * DELTA;
+// Round it down using Math.floor.
+// Will be 0, 1, or 2.
+const floored = Math.floor(multiplied);
+
+alert(floored);
+     
+}
+
+
+
+
+</script>
+
+</html>
